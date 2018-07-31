@@ -26,6 +26,7 @@
 
     ·【v0.01】README文档说明更新
     ·【v0.02】SelectionSort排序算法更新，com.myself.algorithm.sort.SelectionSort.class
+    ·【v0.03】template泛型模板函数传参，com.myself.algorithm.sort.template
 
 ### 相关笔记
 
@@ -42,6 +43,11 @@
     ·在数组中的活动范围内选择最小的数据，并放置在数组活动范围的头部
     ·固定范围即已经排序过的数据，活动范围即还没有固定的数据
     ·由此重复至活动范围长度为0，固定范围即从小到大排序
+   
+3、模板函数，泛型参数传递排序
+    
+    ·针对各种参数，甚至自定义参数进行排序
+    ·使用Comparable处理所有参数
 
 ### 关于作者
 个人公众号：UncleCatMySelf
